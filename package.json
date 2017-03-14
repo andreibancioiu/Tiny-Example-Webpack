@@ -1,0 +1,14 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "scripts": {
+    "webpack": "webpack",
+    "scss": "node-sass --output-style nested -o dist scss/my/style.scss"
+  },
+  "dependencies": {
+    "webpack": "*",
+    "node-sass" : "*",
+    "typescript": "*",
+    "ts-loader": "*"
+  }
+}
